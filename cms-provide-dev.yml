@@ -43,7 +43,7 @@ mybatis:
 
 eureka:
   client:
-    service-url:
+    serviceUrl:
       #单机defaultZone: http://localhost:5001/eureka/ #设置与eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
       defaultZone: http://eureka5001.com:5001/eureka/,http://eureka5002.com:5002/eureka/,http://eureka5003.com:5003/eureka/
   instance:
