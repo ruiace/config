@@ -1,7 +1,11 @@
 server:
   port: 7001
 
-
+env: 
+  dev12
+girl: 
+  name: zhangsanjie
+  age: 18
 
 
 spring:
