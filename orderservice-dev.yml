@@ -33,14 +33,13 @@ spring:
     host: 192.168.25.103
     port: 5672
 
-  application:
-    name: orderservice
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: CONFIGSERVICE
-      profile: dev
+ #   name: orderservice
+  #cloud:
+   # config:
+   #   discovery:
+   #     enabled: true
+    #    service-id: CONFIGSERVICE
+    #  profile: dev
 #自定义轮询规则
 #PRODUCTSERVICE:
  # ribbon:
