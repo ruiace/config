@@ -3,6 +3,7 @@ server:
 
 env: 
   dev12
+  
 girl: 
   name: zhangsanjie
   age: 18
@@ -11,7 +12,6 @@ girl:
 spring:
   application:
     name: orderservice
-  
   datasource:
      driver-class-name: com.mysql.jdbc.Driver
      username: root
