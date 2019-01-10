@@ -2,7 +2,7 @@ server:
   port: 10086
 
 my:
-  test: good12
+  test: good1233
 
 zuul:
   routes:
